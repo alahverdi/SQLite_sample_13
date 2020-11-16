@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_views_radius">8dp</dimen>
+
+    <dimen name="small_font_size">14sp</dimen>
+    <dimen name="large_font_size">16sp</dimen>
+    <dimen name="tittle_font_size">18sp</dimen>
+
+    <dimen name="standard_card_elevation">8sp</dimen>
+    <dimen name="standard_card_radius">16sp</dimen>
+</resources>

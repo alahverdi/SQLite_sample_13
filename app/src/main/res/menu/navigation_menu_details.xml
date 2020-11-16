@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="نمودار قیمت" android:id="@+id/nav_menu_priceChart" android:icon="@drawable/ic_chart"/>
+    <item android:title="مقایسه محصول" android:id="@+id/nav_menu_compare" android:icon="@drawable/ic_compare"/>
+    <item android:title="به اشتراک گذاری کالا" android:id="@+id/nav_menu_share" android:icon="@drawable/ic_share"/>
+    <item android:title="اطلاع رسالنی شگفت انگیر" android:id="@+id/nav_menu_alert" android:icon="@drawable/ic_add_alert"/>
+
+    <group>
+        <item android:title="اضافه به علاقه مندی ها" android:id="@+id/nav_menu_like" android:icon="@drawable/ic_favorite_border"/>
+        <item android:title="افزودن به سبد خرید" android:id="@+id/nav_menu_cart" android:icon="@drawable/ic_shopping_cart" />
+
+    </group>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Insert into Database" android:id="@+id/nav_menu_insert" android:icon="@drawable/ic_insert_to_database"/>
+    <item android:title="ثبت نام" android:id="@+id/nav_menu_register" android:icon="@drawable/ic_register"/>
+    <item android:title="پروفایل کاربری" android:id="@+id/nav_menu_profile" android:icon="@drawable/ic_person"/>
+    <item android:title="پیگیری سفارش" android:id="@+id/nav_menu_orderTracking" android:icon="@drawable/ic_search"/>
+    <item android:title="گزارش مشکل" android:id="@+id/nav_menu_reportBug" android:icon="@drawable/ic_bug_report"/>
+
+    <group>
+        <item android:title="راهنما" android:id="@+id/nav_menu_help" android:icon="@drawable/ic_help"/>
+        <item android:title="تماس با ما" android:id="@+id/nav_menu_contactUs" android:icon="@drawable/ic_phone" />
+
+    </group>
+</menu>

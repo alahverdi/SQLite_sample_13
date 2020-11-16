@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/standard_card_elevation"
+    app:cardCornerRadius="@dimen/standard_card_radius"
+    android:layout_marginBottom="16dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_item"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_id_tittle"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@id/tv_id_tittle"
+            android:fontFamily="@font/digikala_font"
+            android:text="شماره کالا"
+            android:textSize="@dimen/tittle_font_size" />
+
+        <TextView
+            android:id="@+id/tv_id_tittle"
+            style="@style/tv_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="کد کالا"
+            android:textSize="@dimen/small_font_size" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/tv_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_id"
+            android:layout_alignParentEnd="true"
+            android:text="نام کالا" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/digikala_font_bold"
+            android:text="قیمت"
+            android:textColor="#4CAF50"
+            android:textSize="@dimen/large_font_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_price"
+            android:layout_toLeftOf="@id/tv_price"
+            android:fontFamily="@font/digikala_font_light"
+            android:text="تومان"
+            android:textSize="@dimen/small_font_size" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
